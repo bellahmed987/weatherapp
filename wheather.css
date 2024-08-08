@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    background-color: hsl(0, 38%, 75%);
+    color: rgb(255, 255, 255);
+}
+.input{
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    border: 2px solid yellow;
+    margin: 5px;
+    border-radius: 10px;
+}
+button[type="submit"]{
+
+    padding: 5px;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10px;
+}
+.card{
+    background: linear-gradient(rgb(75, 75, 222),rgb(218, 218, 92));
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+display: none;
+padding: 50px;
+max-width: 300px;
+}
+.citydisplay{
+    font-weight: bold;
+    font-size: 30px;
+}.temprature{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.humidity{
+    font-size: 15px;
+    margin-top: 2px;
+}
+.emoji{
+margin: 0;
+font-size: 7.5rem;
+
+}
+.erordisplay{
+margin-top: 0px;
+}
+p{
+    font-size: 1.5rem;
+    
+}
